@@ -8,6 +8,7 @@ import {
 } from "react-router-dom";
 import List from './components/List.jsx';
 import Home from './components/Home.jsx';
+import Car from './components/Car.jsx';
 
 const router = createBrowserRouter([
   {
@@ -22,6 +23,10 @@ const router = createBrowserRouter([
       {
         path: "collections",
         element: <List />
+      },
+      {
+        path: "brand",
+        element: <Car />
       }
     ]
   },

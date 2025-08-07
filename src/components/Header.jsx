@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import logo from "/images/Heading.png";
-import { Menu, X, Home, Info, Phone, User, ClipboardList } from "lucide-react";
+import { Menu, X, Home, Info, Phone, User, ClipboardList, Car } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -27,10 +27,14 @@ const Navbar = () => {
           <Link to={"/collections"} className="flex items-center gap-2 hover:text-gray-300">
           <ClipboardList size={18} /> Collections
           </Link>
+          <Link to={"/brand"} className="flex items-center gap-2 hover:text-gray-300">
+             <Car size={18} /> Brand
+          </Link>
 
           <a href="#" className="flex items-center gap-2 hover:text-gray-300">
             <Phone size={18} /> Contact
           </a>
+
         </nav>
 
         {/* Login/Register */}
