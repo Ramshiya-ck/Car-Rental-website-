@@ -1,0 +1,45 @@
+[
+    {
+        "id": "1",
+        "image": "/images/img7.png",
+        "name": "Audi A8 L 2022",
+        "charge": 78.90
+
+    },
+    {
+        "id": "2",
+        "image": "/images/img2.png",
+        "name": "Nissan Maxima Platinum 2022",
+        "charge": 78.90
+
+    },
+    {
+        "id": "3",
+        "image": "/images/img3.png",
+        "name": "Porsche Cayenne GTS 2022",
+        "charge": 78.90
+
+    },
+    {
+        "id": "4",
+        "image": "/images/img4.png",
+        "name": "BMW M8 Coupe 2022",
+        "charge": 78.90
+
+    },
+    {
+        "id": "5",
+        "image": "/images/img5.png",
+        "name": "BMW X7 M50i 2022",
+        "charge": 78.90
+
+    },
+    {
+        "id": "6",
+        "image": "/images/img6.png",
+        "name": "Porsche Cayenne GTS 2022",
+        "charge": 78.90
+
+    }
+
+]

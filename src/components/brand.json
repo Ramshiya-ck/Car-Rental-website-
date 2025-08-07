@@ -1,0 +1,52 @@
+[
+    {
+        "id": "1",
+        "image": "/images/Vector.png",
+        "brand": "Toyota"
+    },
+     {
+        "id": "2",
+        "image": "/images/layer1.png",
+        "brand": "Ford"
+    },
+     {
+        "id": "3",
+        "image": "/images/Honda svg.png",
+        "brand": "TOYOTA"
+    },
+         {
+        "id": "4",
+        "image": "/images/toyota1.png",
+        "brand": "TOYOTA"
+    },
+         {
+        "id": "5",
+        "image": "/images/Chevrolet.png",
+        "brand": "Chevrolet"
+    },
+         {
+        "id": "6",
+        "image": "/images/bmw.png",
+        "brand": "BMW"
+    },
+         {
+        "id": "7",
+        "image": "/images/Kia svg.png",
+        "brand": "Mercedes-Benz"
+    },
+         {
+        "id": "8",
+        "image": "/images/Hyundai.png",
+        "brand": "Hyundai"
+    },
+         {
+        "id": "9",
+        "image": "/images/Vector (1).png",
+        "brand": "Audi"
+    },
+    {
+        "id": "10",
+        "image": "/images/Kia svg.png",
+        "brand": "KIA"
+    }
+]

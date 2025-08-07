@@ -1,0 +1,63 @@
+[
+   {
+    "id": "1",
+    "image":"/images/suv.png",
+    "brand": "SUV"
+   },
+      {
+    "id": "2",
+    "image":"/images/crossover.png",
+    "brand": "Cross Over"
+   },
+      {
+    "id": "3",
+    "image":"/images/wagon.png",
+    "brand": "Wagon"
+   },
+      {
+    "id": "4",
+    "image":"/images/familymbp.png",
+    "brand": "Family MBP"
+   },
+      {
+    "id": "5",
+    "image":"/images/sportcoup.png",
+    "brand": "Sport coup"
+   },
+      {
+    "id": "6",
+    "image":"/images/compact.png",
+    "brand": "Compact"
+   },
+      {
+    "id": "7",
+    "image":"/images/sportcoup.png",
+    "brand": "Coup"
+   },
+      {
+    "id": "8",
+    "image":"/images/bmwbody.png",
+    "brand": "BMW"
+   },
+      {
+    "id": "9",
+    "image":"/images/sedan.png",
+    "brand": "Sedan"
+   },
+      {
+    "id": "10",
+    "image":"/images/limousine.png",
+    "brand": "Limousine"
+   },
+      {
+    "id": "11",
+    "image":"/images/convertible.png",
+    "brand": "Convertible"
+   },
+      {
+    "id": "12",
+    "image":"/images/crossover.png",
+    "brand": "Cross Over"
+   }
+
+]
