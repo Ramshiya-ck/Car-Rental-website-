@@ -9,7 +9,6 @@ import List from './List'
 import Details from './Details'
 import About from './About'
 import Review from './Review'
-import Footer from './footer'
 
 
 const Home = () => {
@@ -93,7 +92,7 @@ const Home = () => {
       {/* <Signup /> */}
       < About />
       <Review />
-      <Footer/>
+      
         </>
     )
 }
