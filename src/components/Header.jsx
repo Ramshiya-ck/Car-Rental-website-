@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "/images/Heading.png";
-import { Menu, X, Home, Info, Phone, User } from "lucide-react";
+import { Menu, X, Home, Info, Phone, User, ClipboardList } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -17,15 +18,16 @@ const Navbar = () => {
 
         {/* Desktop Menu */}
         <nav className="hidden md:flex space-x-8">
-          <a href="#" className="flex items-center gap-2 hover:text-gray-300">
+          <Link to={"/"} className="flex items-center gap-2 hover:text-gray-300">
             <Home size={18} /> Home
-          </a>
+          </Link>
           <a href="#" className="flex items-center gap-2 hover:text-gray-300">
             <Info size={18} /> About
           </a>
-          <a href="#" className="flex items-center gap-2 hover:text-gray-300">
-            <User size={18} /> Services
-          </a>
+          <Link to={"/collections"} className="flex items-center gap-2 hover:text-gray-300">
+          <ClipboardList size={18} /> Collections
+          </Link>
+
           <a href="#" className="flex items-center gap-2 hover:text-gray-300">
             <Phone size={18} /> Contact
           </a>

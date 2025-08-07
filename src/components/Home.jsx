@@ -4,10 +4,17 @@ import lineimg from "/images/Line 6.png"
 import arrow from "/images/arrrow.png"
 import location from "/images/Location (1).png"
 import { ArrowRight } from 'lucide-react'
+import Car from './Car'
+import List from './List'
+import Details from './Details'
+import About from './About'
+import Review from './Review'
+import Footer from './footer'
 
 
 const Home = () => {
     return (
+        <>
         <div className=' bg-black'>
             <div className=' mx-auto pl-10 h-screen w-[100%] flex items-center justify-start'>
                 <div className=" flex flex-col items-center justify-between gap-6 py-12">
@@ -80,6 +87,14 @@ const Home = () => {
 
             </div>
         </div>
+        <Car />
+      <List/>
+      <Details />
+      {/* <Signup /> */}
+      < About />
+      <Review />
+      <Footer/>
+        </>
     )
 }
 
