@@ -37,14 +37,12 @@ const Navbar = () => {
 
         </nav>
 
-        {/* Login/Register */}
         <div className="hidden md:block">
-          <button className="bg-white text-black px-4 py-1 rounded hover:bg-gray-300">
-            Login / Register
-          </button>
+          <Link to={"/login"}><button className="bg-white text-black px-4 py-1 rounded hover:bg-gray-300">
+            Join Us
+          </button></Link>
         </div>
 
-        {/* Hamburger Button */}
         <button
           onClick={toggleMenu}
           className="md:hidden text-white focus:outline-none"

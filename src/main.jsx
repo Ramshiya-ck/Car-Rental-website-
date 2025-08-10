@@ -9,6 +9,8 @@ import {
 import List from './components/List.jsx';
 import Home from './components/Home.jsx';
 import Car from './components/Car.jsx';
+import Signup from './components/signup.jsx';
+import Login from './components/login.jsx';
 
 const router = createBrowserRouter([
   {
@@ -27,6 +29,14 @@ const router = createBrowserRouter([
       {
         path: "brand",
         element: <Car />
+      },
+      {
+        path: "signup",
+        element: <Signup />
+      },
+      {
+        path: "login",
+        element: <Login />
       }
     ]
   },
@@ -36,4 +46,5 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
   <RouterProvider router={router} />
   </StrictMode>,
+
 )
