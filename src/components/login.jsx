@@ -16,7 +16,7 @@ const Login = () => {
 
   return (
   
-      <div       style={{
+      <div style={{
         backgroundImage: `url(${img1})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
